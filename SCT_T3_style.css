@@ -1,0 +1,75 @@
+/* Galaxy Background */
+body {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background: radial-gradient(circle at center, #0f2027, #203a43, #2c5364);
+  color: #fff;
+  font-family: "Poppins", sans-serif;
+}
+
+h1 {
+  margin-bottom: 15px;
+  font-size: 2rem;
+  letter-spacing: 2px;
+  text-shadow: 0 0 10px #00fff7, 0 0 20px #00fff7;
+}
+
+/* Tic Tac Toe Board */
+.board {
+  display: grid;
+  grid-template-columns: repeat(3, 100px);
+  grid-template-rows: repeat(3, 100px);
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.cell {
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2rem;
+  font-weight: bold;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: transform 0.2s, background 0.3s, box-shadow 0.3s;
+}
+
+.cell:hover {
+  background: rgba(0, 255, 247, 0.1);
+  transform: scale(1.05);
+  box-shadow: 0 0 10px #00fff7;
+}
+
+/* Info Section */
+.info {
+  text-align: center;
+}
+
+#statusText {
+  font-size: 1.2rem;
+  margin: 10px 0;
+  text-shadow: 0 0 5px #00fff7;
+}
+
+button {
+  padding: 8px 15px;
+  background: #00fff7;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  color: #000;
+  font-size: 1rem;
+  font-weight: bold;
+  transition: transform 0.2s ease, box-shadow 0.3s ease;
+}
+
+button:hover {
+  transform: scale(1.1);
+  box-shadow: 0 0 10px #00fff7;
+}
