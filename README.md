@@ -3,9 +3,13 @@
 
 ✨ Features
 ✅ Two-Player Mode – Play against a friend on the same device.
+
 ✅ Interactive UI – Smooth hover effects and glowing cell highlights.
+
 ✅ Win Detection – Automatically checks for winners or draws.
+
 ✅ Restart Button – Quickly reset and play again.
+
 ✅ Responsive Design – Works on desktop and mobile screens.
 
 🚀 How to Play
