@@ -15,7 +15,11 @@
 🚀 How to Play
 
 Open index.html in your browser.
+
 Player X starts the game.
+
 Players take turns clicking on empty cells.
+
 The game announces a winner or a draw.
+
 Click Restart to play again.
